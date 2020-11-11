@@ -1,0 +1,26 @@
+{
+    "name": "systhatech/meeting",
+    "description": "LiveSmart Video Chat is a standalone web application with video, audio, recording, screensharing and file transfer face-to-face communication channels and integrated chat",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "basantashubhu",
+            "email": "callmebasanta44@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SysthaTech\\Meeting\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SysthaTech\\Meeting\\MeetingServiceProvider"
+            ]
+        }
+    }
+}
