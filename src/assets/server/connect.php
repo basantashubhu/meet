@@ -8,7 +8,7 @@ put_env_elements();
 // $charset = 'utf8mb4';
 // $dbPrefix = 'lsv_';
 // $pasPhrase = '';
-$setVal = 'Tl2zDnrBY/Y17tjGRNE/eASupF366RhkQRmSBmCbdnk=';
+// $setVal = '';
 
 $servername = env('DB_HOST', 'localhost');
 $database = env('DB_DATABASE');
